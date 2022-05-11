@@ -16,7 +16,7 @@ if(ctr==alerts.length){
 }, 500);
 
 
-let api = "c1786176c7ee4f9ea8c12941c7999266";
+let api = "YOUR API KEY";
 const xhr = new XMLHttpRequest();
 xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=${api}`, true);
 xhr.onload = function () {
